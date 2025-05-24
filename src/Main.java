@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        Animal cat = null;
+        Animal cat = new Animal("cat");
         Animal dog = new Animal("dog");
         Animal wolf = new Animal("wolf");
 

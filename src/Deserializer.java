@@ -15,7 +15,7 @@ public class Deserializer {
             }
 
             return result;
-        } catch (ArrayIndexOutOfBoundsException | EOFException | ClassCastException | NullPointerException | ArrayStoreException e) {
+        } catch (ArrayIndexOutOfBoundsException | EOFException | ClassCastException | ArrayStoreException e) {
             throw new IllegalArgumentException("Недопустимые данные для десериализации");
         }
 
